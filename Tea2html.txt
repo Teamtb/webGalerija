@@ -1,0 +1,21 @@
+	<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+	p {color:green;
+		background-color:yellow;}
+	</style>
+		<title>
+			TEA
+		</title>
+	</head>
+	<body style="background-color:red">
+		<P>
+			TEKST
+		</P>
+		<h1>
+			Moj prvi sajt.
+		</h1>
+		<p style="background-color:blue">
+			Sadrzaj mog prvog sajta.<br>
+		</html>
