@@ -1,21 +1,42 @@
 p 	{
-		color:green;
+		color:black;
 		background-color:brown;
 		font-style: italic;
+		border-style: solid;
+		border-top-color: black;
+	    font-weight: 900;
+		
 		
 	}
 
-body 	{
-			background-color:green;
-		}
+body {
+		background-color:gray;
+		
+}
 
+h1 {
+			background-color:white;
+			width:300px;
+	
+}
+img {
+	padding:15px;
+}
 #sivi {
-	background-color:rgb(255, 124, 0);
-	}
-#plavi{color:white;
+	color:black;
+	   font-weight: bold;
+	   
+}
+.okvir {
+	border: 10px solid black;
+		padding: 15px;
+
+
+}
+.row {
+	background-color:gray;
+	
 }
 
-.okvir{
 
-}
 
