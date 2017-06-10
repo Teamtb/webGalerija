@@ -1,4 +1,4 @@
-p 	{
+p {
 		color:black;
 		background-color:brown;
 		font-style: italic;
@@ -7,34 +7,34 @@ p 	{
 	    font-weight: 900;
 		
 		
-	}
+}
 
 body {
 		background-color:gray;
 		
 }
 
-h1 {
-			background-color:white;
-			width:300px;
+h1 {    
+        background-color:white;
+		width:300px;
 	
 }
-img {
-	padding:15px;
+img {  
+        padding:15px;
 }
 #sivi {
-	color:black;
-	   font-weight: bold;
+	    color:black;
+	    font-weight: bold;
 	   
 }
 .okvir {
-	border: 10px solid black;
+	    border: 10px solid black;
 		padding: 15px;
 
 
 }
 .row {
-	background-color:gray;
+	   background-color:gray;
 	
 }
 
