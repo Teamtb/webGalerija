@@ -1,8 +1,8 @@
 	<!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="Index.css"/>
-		<script src="Index.js"></script>
+		<link rel="stylesheet" type="text/css" href="tea.css"/>
+		<script src="tea.js"></script>
 		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,33 +12,38 @@
 	</head>
 	
 	<body>
-	
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-1">
 			</div>
-			<div class="col-sm-4">
-				<img class="okvir" src="images/treca.jpg" alt="Smiley face" align="center" height="200" width="500">
-			</div>
-			<div class="col-sm-4">
+			
+				<img id="slika" class="col-sm-10" src="images/treca.jpg" alt="Smiley face" align="center" height="500" >
+			
+			<div class="col-sm-1">
 			</div>
 		</div>
 	
 		<div class="row">
-			<div class="col-sm-3">
-		<div class="row">
-		</div>
-					<button onclick="slika()" class="col-sm-5" type="button">Prev!</button>
+			<div class="">
+					<button class="dugmici col-sm-1" onclick="prethodna()" type="button">Prev!</button>
 			</div>
-			<div class="col-sm-3">
-				<img src="images/druga.jpg" alt="Smiley face" align="center" height="200" width="300">
+			
+			<div>
+				<img id="prva"  class="col-sm-2 slike"  src="images/prva.jpg" alt="Smiley face" align="center" height="200" >
 			</div>
-			<div class="col-sm-3">
-				<img src="images/cetvrta.jpg" alt="Smiley face" align="center" height="200" width="300">
+			<div>
+				<img id="druga" class="col-sm-2 slike" src="images/druga.jpg" alt="Smiley face" align="center" height="200" >
 			</div>
-			<div class="col-sm-3">
-		<div class="row">
-		</div>
-					<button onclick="slika()" class="col-sm-5" type="button">Next!</button>
+			<div>
+				<img id="treca" class="col-sm-2 slike" src="images/treca.jpg" alt="Smiley face" align="center" height="200" >
+			</div>
+			<div>
+				<img id="cetvrta" class="col-sm-2 slike" src="images/cetvrta.jpg" alt="Smiley face" align="center" height="200" >
+			</div>
+			<div >
+				<img id="peta" class="col-sm-2 slike" src="images/peta.jpg" alt="Smiley face" align="center" height="200" >
+			</div>
+			<div class="">
+					<button class="dugmici col-sm-1" style="float:right" onclick="naredna()" >Next!</button>
 			</div>
 		</div>
 	
