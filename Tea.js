@@ -1,9 +1,11 @@
 var i = 0;
 var slike = ["prva","druga","treca","cetvrta","peta"];
-var s = [ , , , ];
+var s = [];
+var jezici = [];
+var j = 1;
 
 function prethodna() {
-	setS();
+	
 	i--; //i = i - 1; ovo je komentar, da se lakse razumije kod //
 	if (i < 0)
 	{
@@ -22,11 +24,11 @@ function prethodna() {
 }	
 
 function naredna() {
-	setS();
+	
 	i++;//i = i + 1; 
-	if (i > 4)
+	if (i > 4) //ako je vece od ukupnog broja slika onda 
 	{
-		i = 0;
+		i = 0;//se vrati na prvu sliku
 	}
 	document.getElementById("slika").src = "images/" + slike[i] + ".jpg";
 	
@@ -41,24 +43,26 @@ function naredna() {
 	//s[i-1].style.borderWidth = "0px";
 	s[i].style.borderWidth = "5px";
 	
-	//document.getElementById("druga").style.borderWidth = "5px";
-	
-	// if(i == 1)
-	// {
-		// document.getElementById("slika").src = "images/prva.jpg";
-		// i = 2;
-	// }else
-	// if(i == 2)
-	// {
-		// document.getElementById("slika").src = "images/druga.jpg";
-		// i = 3;
-	// }else
-	// if(i == 3)
-	// {		
-		// document.getElementById("slika").src = "images/treca.jpg";
-		// i = 1;
-	
-	// }
+
+}
+function jezik()
+{
+	var t = document.getElementById("jezik");
+	if(j == 1)
+	{
+		j = 2;
+		t.innerHTML = "Engleski";
+		jezici[1].display = "none";
+		jezici[0].display = "block";
+	}
+	else
+	{
+			j = 1;
+			t.innerHTML = "Srpski";
+			jezici[0].display = "block";
+			jezici[1].display = "none";
+			
+	}
 }
 function setS()
 {
@@ -67,4 +71,7 @@ function setS()
 	s[2] = document.getElementById("treca");
 	s[3] = document.getElementById("cetvrta");
 	s[4] = document.getElementById("peta");
+	
+	jezici[0] = document.getElementsByClassName("eng");
+	jezici[1] = document.getElementsByClassName("srb");
 }
