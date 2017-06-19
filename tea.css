@@ -1,5 +1,61 @@
-html{
-	  
+html, body{
+	
+		height:100%;
+		
+}
+
+h1{
+		text-align: left;
+		text-indent: 50px;
+
+}
+
+
+.bocni{
+		border-right: solid 2px blue;
+		height: 100%;
+		position: apsolute;
+		top:0;
+		bottom:0;
+}
+.dugmici{
+	
+		background-color:purple;
+		font-size: 26px;
+		border-radius: 12px;
+		border: 2px solid black;
+		color: black;
+	
+}
+.naslov{
+	
+		border-bottom: 2px solid blue;
+}
+.desni{
+		border-left: 2px solid blue;
+
+}
+.slike{
+	border: 0px solid black;
+}
+.pozadina{
+	background-color:gray;
+	color:purple;
+}
+#gornji{
+	
+		background-color:gray;
+}
+#donji{
+	
+		background-color:gray;
+}
+#velika{
+		
+		border: 10px solid black;
+}
+#prva{
+	border: 5px solid black;
 }
 #postovani{
 	
@@ -7,24 +63,5 @@ html{
 }
 #meni{
 		background-color:purple;
-		 
-}
-h1{
-	text-align: left;
-	text-indent: 50px;
-
-}
-h2{
-	margin:55px;
-}
-
-.bocni{
-	border-right: solid 2px blue;
-	height: 100%;
-	position: apsolute;
-	top:0;
-	bottom:0;
-}
-html, body{
-  height:100%;
+		
 }

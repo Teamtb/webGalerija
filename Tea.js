@@ -21,6 +21,7 @@ function prethodna() {
 		s[i+1].style.borderWidth = "0px";
 	}
 	s[i].style.borderWidth = "5px";
+
 }	
 
 function naredna() {
