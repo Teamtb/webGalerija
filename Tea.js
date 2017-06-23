@@ -53,15 +53,16 @@ function jezik()
 	{
 		j = 2;
 		t.innerHTML = "Engleski";
-		jezici[1].display = "none";
-		jezici[0].display = "block";
+		//document.getElementById("engleski").style.display = "none";
+		document.getElementById("engleski").style.display = "none";
+		document.getElementById("srpski").style.display = "block";
 	}
 	else
 	{
 			j = 1;
 			t.innerHTML = "Srpski";
-			jezici[0].display = "block";
-			jezici[1].display = "none";
+			document.getElementById("engleski").style.display = "block";
+			document.getElementById("srpski").style.display = "none";
 			
 	}
 }
@@ -72,7 +73,5 @@ function setS()
 	s[2] = document.getElementById("treca");
 	s[3] = document.getElementById("cetvrta");
 	s[4] = document.getElementById("peta");
-	
-	jezici[0] = document.getElementsByClassName("eng");
-	jezici[1] = document.getElementsByClassName("srb");
+
 }
